@@ -1,0 +1,69 @@
+
+form{
+	width: 80%;
+	height:600px;
+	margin-left:30px;
+	margin-top:30px;
+	background-color:aqua;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:flex-start;
+
+}
+
+form div{
+	margin:10px;
+}
+form  div #submit{
+	margin-left:230px;
+}
+
+form div{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:600px;
+	
+	/* margin:20px; */
+}
+
+form div label {
+	width:400px;
+	font-size:20px;
+	font-weight:500;
+	text-align:center;	
+}
+
+form div input {
+	width: 30%;
+	border-radius:5px;
+}
+
+form #mf{
+	width:300px !important;
+	margin-left:200px;
+}
+
+form div #M{
+	width:120px !important;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+form div #F{
+	width:120px !important;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+form div #M label {
+	width:100px !important; 
+}
+
+form div #F label {
+	width:100px !important; 
+}
+
